@@ -1,0 +1,15 @@
+# Theo đặc tả
+build/
+.gradle/
+local.properties
+*.apk
+*.jks
+*.keystore
+
+# Rác IDE / Kotlin cục bộ
+.idea/
+*.iml
+.kotlin/
+captures/
+.externalNativeBuild/
+.cxx/

@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Compat Test v2</string>
+    <string name="a11y_label">Compat Test v2 – nhịp tim</string>
+    <string name="a11y_description">Dịch vụ kiểm thử độ bền chạy nền. Chỉ ghi nhịp tim và sự kiện bật/tắt màn hình vào file log cục bộ trong máy; không đọc nội dung màn hình, không chụp màn hình, không gửi dữ liệu ra ngoài.</string>
+    <string name="fgs_special_use_subtype">Kiểm thử độ bền chạy nền qua đêm: dịch vụ giữ nhịp tim 60 giây và ghi log cục bộ, không dùng mạng.</string>
+    <string name="fgs_channel_name">Dịch vụ nền kiểm thử</string>
+    <string name="fgs_channel_desc">Thông báo cố định khi Foreground Service kiểm thử đang chạy.</string>
+    <string name="fgs_notif_title">Compat Test v2 đang chạy nền</string>
+    <string name="fgs_notif_text">Đang ghi nhịp tim 60 giây vào log cục bộ.</string>
+
+    <string name="switch_fgs">Foreground Service (specialUse)</string>
+    <string name="btn_a11y_settings">Mở Cài đặt Trợ năng</string>
+    <string name="section_gaps">Khoảng đứt nhịp tim (nguồn A11Y)</string>
+    <string name="hint_threshold">Ngưỡng (giây)</string>
+    <string name="btn_apply">Áp dụng</string>
+    <string name="section_log">Nhật ký – 20 dòng gần nhất</string>
+    <string name="cb_important_only">Chỉ sự kiện quan trọng (bỏ nhịp tim)</string>
+    <string name="btn_refresh">Làm mới</string>
+    <string name="btn_share">Chia sẻ log</string>
+    <string name="btn_copy">Sao chép log</string>
+    <string name="share_chooser">Chia sẻ log</string>
+    <string name="loading">Đang đọc log…</string>
+</resources>
